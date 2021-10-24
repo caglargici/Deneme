@@ -1,0 +1,134 @@
+<h1>HTML</h1>
+
+
+
+
+<h2 id="top">Limkler ile calismak</h2>
+
+<!--a href="gidilecek sayfa yazılır" target="_blank" yazılırsa yeni sayfada acar-->
+<!--id bilgisi -->
+<!--hr cizgi ceker-->
+<!--strong"kalın yazı" em "italik yazı"-->
+
+<p>Lorem ipsum dolor, <span style="color: red;">styl sit amet </span> styl sit amet consectetur adipisicing.</p>
+
+<hr>
+
+<div>
+
+    <br> <!--alt satıra gecme-->
+
+    </a>
+    <ul>
+        <li>
+            <a href="https:/www.google.com" target="_blank">
+                Buraya tıkla
+            </a>
+        </li>
+        <li>
+            <a href="iletisim.html">
+                iletisim sayfasına git
+        </li>
+        <li>
+            <a href="#footer">
+                en alt kısma git
+            </a>
+        </li>
+        <li>
+            <a href="mailto:acaglarel@gmail.com">  <!--Mail yollama a herf="mailto:MAİL ADRESİ"-->
+                Çağlara mail at
+            </a>
+        </li>
+        <li>
+            <a href="tel:05435524180">   <!--telefon yönlendirme icin a herf="tel:+90......"-->
+                Telefon aç
+            </a>
+        </li>
+    </ul>
+
+
+</div>
+
+
+<h2>görsellerle calısmak </h2>
+
+<!-- img -->
+<!-- width ( genişlil) height(yükseklik)-->
+<!--border="cerceve kalınlıgı"-->
+<!--  <img src="resim.jpg" align="right" />   -->
+<!-- <a href="fotoğrafa tıklayınca gitmesini istedigimizsite"-->
+
+    
+<img width="200" height="200" src="http://picsum.photos/200/300" alt="">
+<img src="images/1.jpg" alt="sa">
+
+<img src="https://picsum.photos/200/300" alt="random foto" aling="left" >
+
+<a href="https://www.google.com"> 
+    <img src="images/1.jpg" alt="google gider"></a>
+
+
+<img src="images/pc.jpg" alt="masa" usemap="#masa" width="400" height="600">
+<map name="masa">
+    <area shape="rect" coords="34,44,270,350" href="https://www.apple.com" alt="computer.html">
+</map>  <!--laptop tıklayıp apple gitme-->
+
+
+
+<h2>Emmet / zen coding </h2>
+<!--
+    etiket isimlerini direk verebiliyoruz.
+    "+" kardeş element olusturur
+    ">" icinde öge olusur
+    "^" İcinden yukarı cıkmak icin
+    "*" carp bir ögeden kac tane p*3 3 tane paragraf acar
+    "lorem anlamsız kelimeler getirir lorem3 yazarsam 3 kelime gelir"
+    . -> class
+    # -> id 
+-->
+<!-- h1+p+p+h2+p+p+p+p -->
+<!-- h1+p+p+h2+p+p+p+p -> h1+p*2+h2+p4 -->
+<!-- ul<li*5 -->
+<!-- ul>li*3^p+h3-->
+<!--br alt satıra gecme-->
+<!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1 -->
+
+<h3 class="deneme">Lorem.</h3> <!-- h3.idolussun>lorem1 -->
+<h3 id="idolussun">Lorem.</h3> <!-- h3#idolussun>lorem1 -->
+
+<!-- <h3 class="deneme" id="idolussun">Lorem.</h3> -->
+
+<!-- ul>.tepki -->
+
+<ul>
+    <li class="text-red">1</li>
+    <li class="text-red">2</li>
+    <li class="text-red">3</li>
+</ul>
+
+
+<h2>Listeler</h2>
+<!--
+    Sıralı listeler -> 1,2,3,4... ordered list ? -> ol
+    Sıralı olmayan listeler -> *,*,* unordered list ? -> ul
+-->
+
+<ol>
+    <li>Liste Öğesi *1*</li>
+    <li>Liste Öğesi *2*</li>
+    <li>Liste Öğesi *3*</li>
+</ol>
+
+<ul>
+    <li>Liste Öğesi *1*</li>
+    <li>Liste Öğesi *2*</li>
+    <li>Liste Öğesi *3*</li>
+</ul>
+
+
+<h2 id="footer">En alt ksıım</h2>
+<p>Lorem, ipsum.</p>
+<br>
+<a href="#top">
+    en üst kısma git
+</a>
